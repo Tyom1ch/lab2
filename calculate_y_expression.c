@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    double a = 5, b = -2, c = 3;
+    const double a = 5, b = -2, c = 3; //const додано
     
     double numerator = (3 * a - 4 * b + 5 * c) - ((a * b - c) / 4.0);
     double denominator = (a * b + 2 * b * c + 3 * a * c);
